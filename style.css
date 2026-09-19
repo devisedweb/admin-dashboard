@@ -62,6 +62,32 @@ nav ul img:not(:last-child) {
 .header-row1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.header-row1 img {
+  width: 32px;
+  height: 32px;
+}
+
+.header-search {
+  display: grid;
+  grid-template-columns: 32px 2fr;
+  gap: 10px;
+  align-items: center;
+}
+
+input {
+  background-color: lightgray;
+  padding: 3px;
+  border: none;
+  border-radius: 50px;
+}
+
+.header-pfp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
 
@@ -69,6 +95,35 @@ nav ul img:not(:last-child) {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  align-items: center;
+}
+
+.user-info img {
+  width: 56px;
+}
+
+.user-info p,
+.user-info h2 {
+  margin: 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.buttons button {
+  background-color: rgb(50, 139, 255);
+  color: #fff;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
 }
 
 /* MAIN */
